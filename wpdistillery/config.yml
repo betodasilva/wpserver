@@ -19,16 +19,16 @@ wpfolder: public
 wpversion: latest
 
 # language/timezone
-wplocale: en_US
-timezone: "America/New_York"
+wplocale: pt_BR
+timezone: "America/Recife"
 
 # admin user settings
 admin:
-  user: admin
-  password: admin
-  email: mail@domain.tld
-  first_name: ""
-  last_name: ""
+  user: beto
+  password: loading7
+  email: jrs_robert@hotmail.com
+  first_name: "Beto"
+  last_name: "da Silva"
 
 # scotch box db access
 db:
@@ -41,7 +41,7 @@ db:
 #################################################################
 
 wpsettings:
-  url: wpdistillery.dev
+  url: wpserver.dev
   title: Example Title
   description: Example Description
   permalink_structure: "/%postname%/"
