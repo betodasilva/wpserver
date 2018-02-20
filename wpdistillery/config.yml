@@ -41,9 +41,9 @@ db:
 #################################################################
 
 wpsettings:
-  url: wpserver.dev
-  title: Example Title
-  description: Example Description
+  url: recantoalternativo.vm
+  title: Recanto Alternativo
+  description: Sua casa, fora de casa
   permalink_structure: "/%postname%/"
   thumbnail_width: 150
   thumbnail_height: 150
@@ -86,6 +86,7 @@ plugins_inactive:
   - custom-post-type-ui
   - search-and-replace
   - capability-manager-enhanced
+  - advanced-custom-fields
   #administration
   - adminimize
   - admin-menu-editor
@@ -103,7 +104,7 @@ plugins_inactive:
 setup:
   wp: true
   settings: true
-  theme: true
+  theme: false
   plugins: true
   cleanup: true
   # adjust what data you want to be deleted within the cleanup (required `cleanup: true`)
